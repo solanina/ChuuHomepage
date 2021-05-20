@@ -43,7 +43,7 @@ for (var i = 0; i < elementos.length; i++) {
 
 ////////////////////////*****************NOCHE***************************
 
- if (hora >= 19 && hora < 23 || hora >= 0 && hora < 6){
+ if (hora >= 19 && hora <= 23 || hora >= 0 && hora < 6){
 
 document.getElementsByTagName("h1")[0].innerHTML = "안녕히 주무세요~";
 document.getElementsByTagName("h1")[0].style.color = "#f3bda1";
