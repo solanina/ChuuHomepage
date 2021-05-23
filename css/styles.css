@@ -23,7 +23,13 @@ margin: 0;
 .imagenchuu img {
   width: 200px;
   margin-bottom: 100px;
-  margin-top: 75px;
+  margin-top: 5px;
+  transition: 2s ease-in-out;
+  backface-visibility: hidden;
+}
+
+img:hover {
+transform: perspective(200px) rotateY(180deg);
 }
 
 .flex-container1 a {
@@ -39,8 +45,9 @@ margin: 0;
   background: -webkit-linear-gradient(#faf1e6,#fffbdf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
 }
+
+
 
 
 .flex-container1 p {
@@ -72,45 +79,6 @@ margin: 0;
 
 
 /************************links************************/
-
-
-/* a,p {
-  z-index: auto;
-  text-decoration: none;
-  color: #e1e5ea;
-  word-spacing: 8px;
-  line-height: 2;
-  font-size: 1.5rem;
-  font-stretch: expanded;
-  font-family: 'Do Hyeon', sans-serif;
-  margin-top: 100px;
-}
-
-a:hover {
-  color: #da7f8f;
-}
-
-.social {
-  padding-top: 300px;
-  padding-left: 500px;
-}
-
-
-.fun {
-  padding-top: 365px;
-  padding-left: 500px;
-}
-
-.stuff {
-  padding-top: 425px;
-  padding-left: 500px;
-}
-
-.fourchan {
-  padding-top: 485px;
-  padding-left: 500px;
-} */
-
 
 
 /***********************************SEARCH BOX***********************/
