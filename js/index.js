@@ -1,6 +1,6 @@
 function timer() {
   var date = new Date();
-    var hora = date.getHours();
+   var hora = date.getHours();
 ////////////////////////////*****************MAÑANA***************************
 
 if (hora >= 6 && hora < 12) {
